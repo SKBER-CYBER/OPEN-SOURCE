@@ -51,12 +51,12 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-#---------------------------------------------[UPDATE SERVER]---------------------------------------------#
+"""#---------------------------------------------[UPDATE SERVER]---------------------------------------------#
 #---------------------------------------------[FILE UPDATE]---------------------------------------------#
 arafat1 = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{axm1}'
 arafat2 = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{axm2}'
 arafat3 = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{axm3}'
-arafat4 = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{axm4}'
+arafat4 = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{axm4}'"""
 #_____________________[ANIMATION BOX]____________________________#
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.1)
