@@ -145,7 +145,7 @@ class create:
         OO = '\033[0;97m'
         for x in range(lim):
             self.loop += 1
-            sys.stdout.write(f'\r\r{A}[{G}OGGY-RN{A}] >> {A}[{R}{self.loop}{A}]{R} >> {A}[{G}OK{A}•{G}{len(oks)}{A}]')
+            sys.stdout.write(f'\r\r{A}[{G}OGGY-RN{A}] >> {A}[{R}{self.loop}{A}]{R} >> {A}[{G}OK{A}•{G}{len(ok)}{A}]')
             sys.stdout.flush()
             if 'boy' in self.gender:
                 name = random.choice(boy).split(' ')
